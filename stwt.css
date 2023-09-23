@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+   background-color:rgba(223, 249, 139, 0.837);
+   align-items: center;
+   justify-content: center;
+
+}
+#color{
+    font-size: 30px;
+    font-style: oblique;
+    text-shadow: 0 0 5px blue;
+}
+.dibba{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#box{
+    box-shadow: 2px 5px 10px rgb(183, 253, 255);
+}
+.stopwatch {
+    align-items: center;
+    justify-content: center;
+    margin: 140px auto;
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgb(183, 253, 255);
+}
+
+#display {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgb(255, 174, 228);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
